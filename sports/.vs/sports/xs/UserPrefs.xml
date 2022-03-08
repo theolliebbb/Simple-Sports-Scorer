@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{95BB1DBD-CA29-43BE-9246-A2875DC4DDDD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sports/Views/Soccer.xaml">
+    <Files>
+      <File FileName="sports/Views/BasketBall.xaml" Line="132" Column="1" />
+      <File FileName="sports/Views/BasketBall.xaml.cs" Line="93" Column="1" />
+      <File FileName="sports/AppShell.xaml" Line="87" Column="27" />
+      <File FileName="sports/App.xaml.cs" Line="15" Column="36" />
+      <File FileName="sports/Views/Soccer.xaml" Line="29" Column="13" />
+      <File FileName="sports/Views/Soccer.xaml.cs" Line="25" Column="29" />
+      <File FileName="sports/Views/FootBall.xaml" Line="72" Column="26" />
+      <File FileName="sports/Views/FootBall.xaml.cs" Line="105" Column="27" />
+      <File FileName="sports/Views/Tennis.xaml" Line="1" Column="1" />
+      <File FileName="sports/Views/Tennis.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sports" expanded="True">
+            <Node name="sports" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Soccer.xaml" selected="True" />
+                <Node name="Tennis.xaml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.sports.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.sports.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

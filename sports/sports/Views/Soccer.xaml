@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="sports.Views.Soccer"
+    BackgroundColor="Black">
+   <Grid RowDefinitions="*, Auto, Auto, Auto, Auto"
+         ColumnDefinitions="*, *">
+    <Label
+           x:Name="LabelHome"
+            Grid.Row="0"
+        Grid.Column="0"
+           BackgroundColor="Black"
+           TextColor="LightYellow"
+           HorizontalOptions="Center"
+        FontSize= "Large"
+           Text="HOME"
+           VerticalOptions="Center"
+           />
+    <Button x:Name="ButtonClickHome"
+            Clicked="ButtonClickHome_Clicked"
+            Grid.Row="1"
+            Grid.Column="0"
+            Text="Home +1"
+            FontSize= "Large"
+            BackgroundColor="DarkCyan"
+           TextColor="LightYellow"/>
+       <Button x:Name="ButtonClickHomeMin"
+            Clicked="ButtonClickHomeMin_Clicked"
+            Grid.Row="2"
+            Grid.Column="0"
+            Text="Home -1"
+            FontSize= "Large"
+            BackgroundColor="DarkCyan"
+           TextColor="LightYellow"/>
+       <Label
+           BackgroundColor="Black"
+           TextColor="LightYellow"
+           x:Name="LabelAway"
+            Grid.Row="0"
+            Grid.Column="1"
+           HorizontalOptions="CenterAndExpand"
+        FontSize="Large"
+           Text="AWAY"
+           VerticalOptions="Center"
+           />
+    <Button x:Name="ButtonClickAway"
+            BackgroundColor="DarkCyan"
+           TextColor="LightYellow"
+            Clicked="ButtonClickAway_Clicked"
+            Grid.Row="1"
+            Grid.Column="1"
+            Text="Away +1"
+            FontSize= "Large"/>
+       <Button x:Name="ButtonClickAwayMin"
+            BackgroundColor="DarkCyan"
+           TextColor="LightYellow"
+            Clicked="ButtonClickAwayMin_Clicked"
+            Grid.Row="2"
+            Grid.Column="1"
+            Text="Away -1"
+            FontSize= "Large"/>
+       <Button x:Name="Reset"
+            BackgroundColor="DarkCyan"
+           TextColor="LightYellow"
+            Clicked="Reset_Clicked"
+            Grid.Row="4"
+               Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Text="RESET"
+            FontSize= "Large"/>
+    </Grid>
+
+</ContentPage>
